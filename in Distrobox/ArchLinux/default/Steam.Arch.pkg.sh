@@ -1,4 +1,4 @@
-app=Steam
+app=Steam.Arch
 bin=`echo "$app" | awk '{print tolower($0)}'`
 
 distrobox create --name $app --home ~/.uni/hyper/distrobox/HOME/$app --image quay.io/toolbx/arch-toolbox:latest
